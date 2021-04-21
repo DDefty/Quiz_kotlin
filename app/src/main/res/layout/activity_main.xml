@@ -42,18 +42,15 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/roboto_bold"
         android:gravity="center"
-        android:text="Welcome"
+        android:text="Choose category"
         android:textColor="#363A43"
         android:textSize="30sp"
         android:textStyle="bold"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/roboto_light"
-        android:gravity="center"
-        android:text="Start quiz !!"
-        android:textColor="#7A8089"
-        android:textSize="16sp"/>
+        <Spinner
+            android:id="@+id/sp_option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"/>
     <Button
         android:id="@+id/btn_start"
         android:layout_width="match_parent"
